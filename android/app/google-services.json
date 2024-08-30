@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "282489982952",
+    "project_id": "quick-mart-af4ae",
+    "storage_bucket": "quick-mart-af4ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282489982952:android:56bc51a4bac102da325e5d",
+        "android_client_info": {
+          "package_name": "com.shashank.quickmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFAwVOPkwyZcngN40Uh-2kMyR4uQNE4aM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
