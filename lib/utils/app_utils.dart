@@ -182,28 +182,22 @@ class AppUtils {
 
   static Color getRandomAvatarBgColor() {
     final List<Color> randomColors = [
-      Color(0xffC9F2E9),
-      Color(0xffC4D0FB),
-      Color(0xffBF83FF),
-      Color(0xffFFD6DD),
-    ];
-    final random = Random();
-    return randomColors[random.nextInt(randomColors.length)];
-  }
-
-  static Color getRandomCardBgColor() {
-    final List<Color> randomColors = [
-      Color(0xff8891AA),
-      Color(0xff88E2CE),
-      Color(0xff9087E5),
-      Color(0xffF0A2D4),
-      Color(0xffF7D37A),
-      Color(0xff9DE2B8),
-      Color(0xffF5928B),
-      Color(0xffA6C1E7),
-      Color(0xffFFB478),
-      Color(0xffC9A7C1),
-      Color(0xff6DD7D3)
+      Color(0xffC9F2E9), // Light Aqua
+      Color(0xffC4D0FB), // Light Blue
+      Color(0xffFFD6DD), // Light Pink
+      Color(0xffFFEBB3), // Light Yellow
+      Color(0xffAEE8FF), // Sky Blue
+      Color(0xffFFE7BA), // Peach
+      Color(0xffB2FFD6), // Mint Green
+      Color(0xffFFC2E0), // Light Pink
+      Color(0xffC1F9CE), // Pastel Green
+      Color(0xffFFE5C8), // Light Apricot
+      Color(0xffBFDFFF), // Soft Blue
+      Color(0xffFDE6F1), // Light Rose
+      Color(0xffD9F3FF), // Pale Blue
+      Color(0xffE1FFD4), // Soft Lime
+      Color(0xffFFF4C1), // Light Lemon
+      Color(0xffE7DFFF), // Lilac
     ];
     final random = Random();
     return randomColors[random.nextInt(randomColors.length)];

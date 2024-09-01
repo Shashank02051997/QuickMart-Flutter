@@ -29,7 +29,9 @@ class CategoryItemCard extends StatelessWidget {
         children: [
           CachedNetworkImage(
             imageUrl: "${category.imageUrl}",
-            width: 100,
+            width: 110,
+            height: 110,
+            fit: BoxFit.contain,
             placeholder: (context, url) => Center(
               child: Container(
                 width: 16,

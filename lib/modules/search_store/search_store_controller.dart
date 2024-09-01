@@ -11,6 +11,7 @@ class SearchStoreController extends GetxController {
   ProductApi productApi = ProductApi();
   var isLoading = false.obs;
   var productList = <ProductListResult>[].obs;
+  var searchProductList = <ProductListResult>[].obs;
 
   @override
   void onInit() {
@@ -24,10 +25,21 @@ class SearchStoreController extends GetxController {
     final response = await productApi.getAllProducts();
     if (response.code == 200) {
       productList.addAll(response.result);
+      searchProductList.addAll(response.result);
     } else {
       AppUtils.showSnackBar("Failed to get products",
           status: MessageStatus.ERROR);
     }
     isLoading.value = false;
+  }
+
+  void searchProducts(String value) async {
+    searchProductList.clear();
+    if (value.isEmpty) {
+      searchProductList.addAll(productList);
+    } else {
+      searchProductList.addAll(productList.where((element) =>
+          element.name!.toLowerCase().contains(value.toLowerCase())));
+    }
   }
 }

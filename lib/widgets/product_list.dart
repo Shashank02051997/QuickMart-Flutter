@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 
 import '../../theme/colors_theme.dart';
 import '../models/home_response_model.dart';
+import '../modules/product_details/product_details_controller.dart';
 import '../routes/app_routes.dart';
 import '../utils/constants.dart';
 import 'add_remove_product.dart';
@@ -28,9 +29,15 @@ class ProductList extends StatelessWidget {
           itemBuilder: (context, index) {
             return InkWell(
                 onTap: () {
-                  Get.toNamed(AppRoutes.productDetailsPage, arguments: {
-                    ARG_PRODUCT_ID: product[index].id,
-                  });
+                  if (Get.isRegistered<ProductDetailsController>()) {
+                    Get.find<ProductDetailsController>().productId =
+                        product[index].id ?? 0;
+                    Get.find<ProductDetailsController>().getProductDetail();
+                  } else {
+                    Get.toNamed(AppRoutes.productDetailsPage, arguments: {
+                      ARG_PRODUCT_ID: product[index].id,
+                    });
+                  }
                 },
                 child: Container(
                   width: 160,

@@ -38,6 +38,9 @@ class SearchStorePage extends StatelessWidget {
                   controller: searchStoreController.searchProductTxtEdtCtrl,
                   keyboardType: TextInputType.name,
                   style: TextStyle(color: ThemeColor.black, fontSize: 14),
+                  onChanged: (value) {
+                    searchStoreController.searchProducts(value);
+                  },
                   decoration: InputDecoration(
                     counterText: '',
                     prefixIcon:
@@ -73,19 +76,23 @@ class SearchStorePage extends StatelessWidget {
                                 color: ThemeColor.grey_300,
                               );
                             },
-                            itemCount: searchStoreController.productList.length,
+                            itemCount:
+                                searchStoreController.searchProductList.length,
                             itemBuilder: (context, index) {
                               return InkWell(
                                   onTap: () {
+                                    searchStoreController
+                                        .searchProductTxtEdtCtrl.text = "";
+                                    searchStoreController.searchProducts("");
                                     Get.toNamed(AppRoutes.productDetailsPage,
                                         arguments: {
                                           ARG_PRODUCT_ID: searchStoreController
-                                              .productList[index].id,
+                                              .searchProductList[index].id,
                                         });
                                   },
                                   child: ProductItem(
                                     product: searchStoreController
-                                        .productList[index],
+                                        .searchProductList[index],
                                   ));
                             })),
               ],

@@ -180,25 +180,27 @@ class HomePage extends StatelessWidget {
                                     backgroundColor:
                                         AppUtils.getRandomAvatarBgColor(),
                                     child: ClipOval(
-                                      child: CachedNetworkImage(
-                                        imageUrl:
-                                            "${homeController.categoryList[index].imageUrl}",
-                                        width: double.infinity,
-                                        height: double.infinity,
-                                        fit: BoxFit.cover,
-                                        placeholder: (context, url) => Center(
-                                          child: Container(
-                                            width: 16,
-                                            height: 16,
-                                            child: CircularProgressIndicator(
-                                              color: ThemeColor.accent,
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: CachedNetworkImage(
+                                          imageUrl:
+                                              "${homeController.categoryList[index].imageUrl}",
+                                          width: double.infinity,
+                                          height: double.infinity,
+                                          placeholder: (context, url) => Center(
+                                            child: Container(
+                                              width: 16,
+                                              height: 16,
+                                              child: CircularProgressIndicator(
+                                                color: ThemeColor.accent,
+                                              ),
                                             ),
                                           ),
-                                        ),
-                                        errorWidget: (context, url, error) =>
-                                            Icon(
-                                          Icons.error,
-                                          color: ThemeColor.red,
+                                          errorWidget: (context, url, error) =>
+                                              Icon(
+                                            Icons.error,
+                                            color: ThemeColor.red,
+                                          ),
                                         ),
                                       ),
                                     ),
