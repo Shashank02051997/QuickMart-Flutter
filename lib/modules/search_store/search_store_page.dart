@@ -81,14 +81,14 @@ class SearchStorePage extends StatelessWidget {
                             itemBuilder: (context, index) {
                               return InkWell(
                                   onTap: () {
-                                    searchStoreController
-                                        .searchProductTxtEdtCtrl.text = "";
-                                    searchStoreController.searchProducts("");
                                     Get.toNamed(AppRoutes.productDetailsPage,
                                         arguments: {
                                           ARG_PRODUCT_ID: searchStoreController
                                               .searchProductList[index].id,
                                         });
+                                    searchStoreController
+                                        .searchProductTxtEdtCtrl.text = "";
+                                    searchStoreController.searchProducts("");
                                   },
                                   child: ProductItem(
                                     product: searchStoreController
