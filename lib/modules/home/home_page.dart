@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           centerTitle: false,
           title: Text(
-            "SM Supermart",
+            "Quick Mart",
             style: TextStyle(
                 color: ThemeColor.black,
                 fontSize: 20,

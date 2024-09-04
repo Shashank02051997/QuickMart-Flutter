@@ -47,12 +47,12 @@ class ContactUsPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   contactUsCard("Delivery Support", "+91 9000800468",
-                      "support@smsupermart.in"),
+                      "support@quickmart.in"),
                   SizedBox(
                     height: 12,
                   ),
                   contactUsCard("Service Support", "+91 9000800469",
-                      "support@smsupermart.in")
+                      "support@quickmart.in")
                 ],
               ),
             ),

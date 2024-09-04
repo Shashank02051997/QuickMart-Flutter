@@ -33,7 +33,7 @@ class SigninPage extends StatelessWidget {
                           ),
                           const SizedBox(height: 8),
                           const Text(
-                            "Get your groceries with SM Supermart",
+                            "Get your groceries with Quick Mart",
                           ),
                           const SizedBox(height: 16),
                           TextFormField(
