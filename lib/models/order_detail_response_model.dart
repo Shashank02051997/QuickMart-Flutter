@@ -55,14 +55,14 @@ class OrderDetailResult {
   final int? orderItemQuantityCount;
   final String? name;
   final String? imageUrl;
-  final double? finalPrice;
+  final dynamic finalPrice;
   final String? quantity;
   final int? categoryId;
   final int? isBestSelling;
   final int? id;
   final int? userId;
   final String? status;
-  final int? totalAmount;
+  final dynamic totalAmount;
   final String? createdAt;
   final String? updatedAt;
 

@@ -32,7 +32,7 @@ class OrderAcceptedPage extends StatelessWidget {
                         height: 44,
                         child: ElevatedButton(
                           onPressed: () {
-                            Get.toNamed(AppRoutes.orderListPage);
+                            Get.offAndToNamed(AppRoutes.orderListPage);
                           },
                           child: Text(
                             "Track Order",

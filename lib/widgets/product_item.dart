@@ -107,7 +107,7 @@ class ProductItem extends StatelessWidget {
                   productName: product.name,
                   productImageUrl: product.imageUrl,
                   productQuantity: product.quantity,
-                  productPrice: product.finalPrice,
+                  productPrice: double.tryParse(product.finalPrice.toString()),
                 ));
                 AppUtils.showSnackBar("Added to cart",
                     title: "Success", status: MessageStatus.SUCCESS);

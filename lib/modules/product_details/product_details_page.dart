@@ -238,8 +238,10 @@ class ProductDetailsPage extends StatelessWidget {
                         .productDetailResponse.result?.imageUrl,
                     productQuantity: productDetailsController
                         .productDetailResponse.result?.quantity,
-                    productPrice: productDetailsController
-                        .productDetailResponse.result?.finalPrice,
+                    productPrice: double.tryParse(productDetailsController
+                            .productDetailResponse.result?.finalPrice
+                            .toString() ??
+                        "0"),
                   ));
                   AppUtils.showSnackBar("Added to cart",
                       title: "Success", status: MessageStatus.SUCCESS);
