@@ -102,6 +102,8 @@ class ProductList extends StatelessWidget {
                       ),
                       Text(
                         "${product[index].name}",
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
                         style: TextStyle(
                           color: ThemeColor.textPrimary,
                         ),
