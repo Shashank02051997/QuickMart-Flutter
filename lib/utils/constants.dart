@@ -15,7 +15,7 @@ const KEY_IS_API_ERROR_HANDLE = "key_is_api_error_handle";
 const KEY_CART_DATA = "key_cart_data";
 
 // Commonly used constants
-const BASE_URL = "http://142.93.212.115:3434/api/";
+const BASE_URL = "http://142.93.212.115:6868/api/";
 const Duration defaultDuration = Duration(milliseconds: 300);
 
 // Date and Time
