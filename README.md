@@ -21,19 +21,38 @@ Introducing QuickMart – your one-stop shop for everything you need, from fresh
 
 **Please click the image below to enlarge.**
 
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_1.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_5.png" height="600" width="300" hspace="40">
 
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_6.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_7.png" height="600" width="300" hspace="40">
 
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_8.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_9.png" height="600" width="300" hspace="40">
 
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_10.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_11.png" height="600" width="300" hspace="40">
 
-<img src="" height="600" width="300" hspace="40"><img src="" height="600" width="300" hspace="40">
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_11.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_12.png" height="600" width="300" hspace="40">
+
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_13.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_14.png" height="600" width="300" hspace="40">
+
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_15.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_16.png" height="600" width="300" hspace="40">
+
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_17.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_18.png" height="600" width="300" hspace="40">
+
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_19.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_20.png" height="600" width="300" hspace="40">
+
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_21.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_22.png" height="600" width="300" hspace="40">
+
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_23.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_24.png" height="600" width="300" hspace="40">
+
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_25.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_26.png" height="600" width="300" hspace="40">
+
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_27.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_28.png" height="600" width="300" hspace="40">
+
+<img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_29.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/QuickMart-Flutter/blob/master/screenshots/screen_shot_30.png" height="600" width="300" hspace="40">
+
 
 ## App Demo
 
-https://github.com/Shashank02051997/QuickMart-Flutter/assets/20399094/0741245f-ef4c-4e7b-a83a-be666ed93a3f
+https://github.com/user-attachments/assets/3dc393ff-886e-4914-ae24-6e51e8c0595b
 
 
 ## ✨ Requirements
@@ -134,4 +153,4 @@ For more information on Flutter and its features, please refer to the official [
 
 ## Visitors Count
 
-<img align="left" src = "https://profile-counter.glitch.me/QuizzieThunder-Flutter/count.svg" alt ="Loading">
+<img align="left" src = "https://profile-counter.glitch.me/QuickMart-Flutter/count.svg" alt ="Loading">
