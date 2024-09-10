@@ -1,0 +1,58 @@
+name: Creating a build for Android & iOS App
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build_android:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.19.0
+      - run: flutter --version
+      - name: Get dependencies
+        run: flutter pub get
+      - name: Build APK
+        run: flutter build apk
+      - name: Build App Bundle
+        run: flutter build appbundle
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app.apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+      - name: Upload App Bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: app.aab
+          path: build/app/outputs/bundle/release/app-release.aab
+
+  build_ios:
+    runs-on: macos-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.19.0
+      - run: flutter --version
+      - name: Get dependencies
+        run: flutter pub get
+      - name: Build iOS
+        run: flutter build ios --release --no-codesign
+      - name: Upload iOS app
+        uses: actions/upload-artifact@v4
+        with:
+          name: Runner.app
+          path: build/ios/iphoneos/Runner.app
